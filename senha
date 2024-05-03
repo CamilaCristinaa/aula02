@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    cadeia senha="a1b2c3"
+    cadeia senhaDigitada
+
+    faca{
+      escreva("Digite a sua senha: ")
+      leia(senhaDigitada)
+      se(senha != senhaDigitada){
+        escreva("Senha invalida\n")
+      }
+    }enquanto(senha != senhaDigitada)
+
+    escreva("Acesso permitido")
+    
+  }
+}
